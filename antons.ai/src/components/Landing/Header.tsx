@@ -4,17 +4,17 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <div className="flex items-center px-24 py-3 justify-between">
+    <div className="flex items-center px-24 py-1 justify-between bg-[#EFEFEF]">
     <div className="flex-1 flex">
-        <Image src="/anton.svg" alt="Anton Logo"  width={84}
-        height={16}
+        <Image src="/anton.svg" alt="Anton Logo"  width={65}
+        height={9}
         style={{
             background: "transparent",
             opacity: 1,
         }}
         priority />
     </div>
-    <div className="flex-1 flex gap-8 px-28">
+    <div className="flex-1 flex gap-8 px-20">
         <Link
         href="gen-ai"
         className="font-[Trim] font-bold"

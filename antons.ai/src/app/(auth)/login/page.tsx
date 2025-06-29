@@ -1,6 +1,6 @@
 "use client";
-import Header from "@/components/Landing/Header";
-import TopHeader from "@/components/Landing/TopHeader";
+// import Header from "@/components/Landing/Header";
+// import TopHeader from "@/components/Landing/TopHeader";
 import { supabase } from "@/lib/utils/supabaseClient";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
@@ -27,9 +27,9 @@ export default function LoginPage() {
 
   return (
     <div>
-      <TopHeader />
+      {/* <TopHeader /> */}
       <div className="min-h-screen bg-[#EFEFEF]">
-        <Header />
+        {/* <Header /> */}
         <div className="mx-auto rounded-md">
           {/* Dashboard Banner */}
           <div className="w-full bg-[#F9FF00] py-16 flex flex-col items-center">

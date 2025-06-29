@@ -1,6 +1,6 @@
 "use client";
-import Header from "@/components/Landing/Header";
-import TopHeader from "@/components/Landing/TopHeader";
+// import Header from "@/components/Landing/Header";
+// import TopHeader from "@/components/Landing/TopHeader";
 import React, { useState } from "react";
 import { supabase } from "@/lib/utils/supabaseClient";
 import { useRouter } from "next/navigation";
@@ -53,10 +53,10 @@ export default function RegisterPage() {
 
   return (
     <div>
-      <TopHeader />
+      {/* <TopHeader /> */}
       <div className="min-h-screen bg-[#EFEFEF]">
         {/* Banner */}
-        <Header />
+        {/* <Header /> */}
         <div className="w-full py-20 flex flex-col items-center border border-[#ffffff] bg-[#EFEFEF]">
           <h1 className="text-[64px] leading-[64px] font-bold font-[Trim] text-black mb-2">
             Registrierung

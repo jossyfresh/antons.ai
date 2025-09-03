@@ -1,0 +1,36 @@
+export interface Offer {
+  invoiceAddress: string;
+  contactName: string;
+  packageType: string;
+  offerTitle: string;
+  supplierVatId: string;
+  supplierAddress: string;
+  supplierContactInfo: string;
+  brandingClaim?: string;
+  serviceLabel: string;
+  bankDetails: string;
+  offerDate: string;
+  offerValidity: string;
+  serviceDescription: string;
+  numberOfImages: number;
+  formatDescription: string;
+  processMaterials: string;
+  deliveryTime: string;
+  paymentTerms: string;
+  usageRights: string;
+  reference: string;
+  earlyBirdSpecial?: boolean;
+  studioAntonCredits?: boolean;
+  conceptDays?: number;
+  rpiCount?: number;
+  highResolution?: boolean;
+  printSmallCount?: number;
+  printLargeCount?: number;
+  expressDelivery?: boolean;
+  superExpressDelivery?: boolean;
+  manualAddons?: { label: string; price: number }[];
+  discountCondition?: string;
+  priceNet: number;
+  priceDiscounted?: number;
+  pricePerImage?: number;
+}
